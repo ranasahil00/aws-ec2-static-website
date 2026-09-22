@@ -1,16 +1,11 @@
-# AWS EC2 Static Website
+# AWS EC2 Static Website with Docker & CI
 
-This project demonstrates hosting a static website on AWS EC2 using Ubuntu and Apache2.
+A static website deployed using **AWS EC2**, containerized with **Docker**, and automated with **GitHub Actions**.
 
-## Technologies Used
-- AWS EC2
-- Ubuntu
-- Apache2
-- HTML
-- CSS
+## 🚀 Project Overview
 
-## Steps
-1. Launch EC2 Instance
-2. Install Apache2
-3. Upload Website Files
-4. Access via Public IP
+This project demonstrates how to host a static website on an AWS EC2 instance and containerize it using Docker.
+
+GitHub Actions is used to automatically build the Docker image whenever changes are pushed to the `main` branch.
+
+## 🏗️ Architecture
